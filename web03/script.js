@@ -20,6 +20,10 @@ class Aluno{
         this.#ativo = false
     }
 
+    isAtivo(){
+        return this.#ativo
+    }
+
     destrancarMatricula(){
         this.#ativo = true
     }
